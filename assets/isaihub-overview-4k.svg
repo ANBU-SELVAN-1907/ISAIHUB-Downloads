@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 3840 2160" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="320" y1="80" x2="3540" y2="2100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b0c0e"/><stop offset=".52" stop-color="#17140e"/><stop offset="1" stop-color="#090a0c"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="670" y1="520" x2="3050" y2="1730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe7a3"/><stop offset=".4" stop-color="#f3b536"/><stop offset="1" stop-color="#a95c13"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="2100" y1="560" x2="3350" y2="1660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff4d8" stop-opacity=".17"/><stop offset="1" stop-color="#c99739" stop-opacity=".045"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(1270 1030 -980 1210 2380 1010)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d99422" stop-opacity=".21"/><stop offset="1" stop-color="#a96e18" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="864" y="254" width="3034" height="1931" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="78"/>
+    </filter>
+    <pattern id="dots" width="64" height="64" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#f6d995" fill-opacity=".24"/></pattern>
+  </defs>
+  <rect width="3840" height="2160" rx="72" fill="url(#bg)"/>
+  <rect width="3840" height="2160" rx="72" fill="url(#glow)"/>
+  <circle cx="2550" cy="1120" r="890" fill="#d8972d" fill-opacity=".17" filter="url(#blur)"/>
+  <path d="M0 0h3840v2160H0z" fill="url(#dots)" opacity=".28"/>
+  <path d="M0 1760c590-180 880-180 1390-46 680 180 1010-15 1490-170 380-122 645-122 960 3" stroke="url(#gold)" stroke-opacity=".28" stroke-width="3"/>
+  <path d="M0 1848c590-180 880-180 1390-46 680 180 1010-15 1490-170 380-122 645-122 960 3" stroke="url(#gold)" stroke-opacity=".12" stroke-width="2"/>
+  <g transform="translate(270 265)">
+    <path d="M30 79c39 26 92 39 142 37 43-1 85-13 119-35M52 43c32 21 75 31 118 30 36-1 72-10 99-28M74 9c25 15 56 22 89 21 29-1 55-8 77-20" stroke="url(#gold)" stroke-width="24" stroke-linecap="round"/>
+    <text x="342" y="104" fill="#fff4d9" font-family="Arial,Helvetica,sans-serif" font-size="87" font-weight="700" letter-spacing="5">ISAIHUB</text>
+    <text x="350" y="164" fill="#e2ae47" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" letter-spacing="9">SOUND, SHAPED YOUR WAY</text>
+  </g>
+  <text x="285" y="897" fill="#fff5dc" font-family="Arial,Helvetica,sans-serif" font-size="147" font-weight="600" letter-spacing="-4">Find your sound.</text>
+  <text x="291" y="1010" fill="#d1c7b4" font-family="Arial,Helvetica,sans-serif" font-size="53" font-weight="400" letter-spacing="1">A free music player for Android and Windows.</text>
+  <text x="291" y="1092" fill="#c5b89d" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="400">Listen freely. Shape each track to your taste.</text>
+  <g opacity=".9" transform="translate(290 1320)">
+    <rect width="225" height="6" rx="3" fill="#e8c16c" fill-opacity=".55"/>
+    <text x="0" y="73" fill="#f0d898" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="6">BUILT FOR THE WAY YOU LISTEN</text>
+  </g>
+  <g transform="translate(1940 370) rotate(-8 850 740)">
+    <rect x="176" y="136" width="1300" height="1450" rx="56" fill="#000" fill-opacity=".38" stroke="#ffe5a3" stroke-opacity=".15" stroke-width="3"/>
+    <rect x="93" y="70" width="1300" height="1450" rx="56" fill="url(#glass)" stroke="#ffe6ac" stroke-opacity=".27" stroke-width="3"/>
+    <rect x="148" y="125" width="1190" height="1340" rx="36" fill="#191711" fill-opacity=".58" stroke="#fff" stroke-opacity=".06" stroke-width="2"/>
+    <circle cx="745" cy="620" r="337" stroke="url(#gold)" stroke-opacity=".33" stroke-width="3"/>
+    <circle cx="745" cy="620" r="260" stroke="#f0cd82" stroke-opacity=".43" stroke-width="3"/>
+    <circle cx="745" cy="620" r="142" fill="url(#gold)" fill-opacity=".13" stroke="#f1cb79" stroke-opacity=".66" stroke-width="3"/>
+    <circle cx="745" cy="620" r="15" fill="#ffe7ab"/>
+    <g fill="url(#gold)">
+      <rect x="435" y="610" width="28" height="20" rx="10"/><rect x="481" y="570" width="28" height="100" rx="14"/>
+      <rect x="527" y="519" width="28" height="202" rx="14"/><rect x="573" y="475" width="28" height="290" rx="14"/>
+      <rect x="619" y="530" width="28" height="180" rx="14"/><rect x="665" y="430" width="28" height="380" rx="14"/>
+      <rect x="711" y="372" width="28" height="496" rx="14"/><rect x="757" y="466" width="28" height="308" rx="14"/>
+      <rect x="803" y="511" width="28" height="218" rx="14"/><rect x="849" y="555" width="28" height="130" rx="14"/>
+      <rect x="895" y="589" width="28" height="64" rx="14"/><rect x="941" y="603" width="28" height="35" rx="14"/>
+    </g>
+    <text x="230" y="1090" fill="#fff3d5" font-family="Arial,Helvetica,sans-serif" font-size="59" font-weight="600">Song Studio</text>
+    <text x="232" y="1155" fill="#cabea7" font-family="Arial,Helvetica,sans-serif" font-size="31">Pitch · Tempo · Equalizer</text>
+    <path d="M232 1222h972" stroke="#fff" stroke-opacity=".17" stroke-width="2"/>
+    <g fill="#e8bb58" fill-opacity=".85"><circle cx="274" cy="1313" r="23"/><circle cx="344" cy="1313" r="23"/><circle cx="414" cy="1313" r="23"/><circle cx="484" cy="1313" r="23"/></g>
+    <path d="M611 1314h430" stroke="#d7c9b2" stroke-opacity=".28" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="822" cy="1314" r="16" fill="#ffe8ac"/>
+    <rect x="1460" y="380" width="250" height="250" rx="38" fill="#d19a35" fill-opacity=".27" stroke="#ffe2a1" stroke-opacity=".39" stroke-width="2"/>
+    <path d="M1518 520c36-74 64-75 97 0 28 63 62 62 95 0" stroke="#ffe8b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="-45" y="1000" width="235" height="235" rx="36" fill="#3b514a" fill-opacity=".39" stroke="#d4e3c3" stroke-opacity=".25" stroke-width="2"/>
+    <path d="M8 1125c30-60 56-60 86 0 28 56 52 56 82 0" stroke="#dce7cb" stroke-opacity=".82" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <text x="286" y="2048" fill="#ad9e83" font-family="Arial,Helvetica,sans-serif" font-size="26" letter-spacing="5">ANDROID  ·  WINDOWS  ·  FREE PLAYER</text>
+  <text x="3500" y="2048" text-anchor="end" fill="#806f54" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="4">CREATED BY ANBU SELVAN  ·  3840 × 2160</text>
+</svg>
+
